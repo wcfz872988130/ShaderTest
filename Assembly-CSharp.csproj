@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{958B5607-7C8F-DF29-1129-27E4170511A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Anim\BlendRender.cs" />
+     <Compile Include="Assets\Anim\CircleDraw.cs" />
+     <Compile Include="Assets\Anim\EffectManager.cs" />
+     <Compile Include="Assets\Anim\LineDraw.cs" />
+     <Compile Include="Assets\Anim\NightVisionEffect.cs" />
+     <Compile Include="Assets\Anim\OldFilm.cs" />
+     <Compile Include="Assets\Anim\OnMotionRenderImage.cs" />
+     <Compile Include="Assets\Anim\PrimitiveBase.cs" />
+     <Compile Include="Assets\Anim\ScreenWaterDropEffect.cs" />
+     <Compile Include="Assets\Anim\WireframeRenderer.cs" />
+     <Compile Include="Assets\Anim\vertcolortrans.cs" />
+     <Compile Include="Assets\Anim\wireframe.cs" />
+     <Compile Include="Assets\BIG_March\Test.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest1.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest2.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest3.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest4.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest5.cs" />
+     <Compile Include="Assets\BIG_March\TouchTest\ColliderTest6.cs" />
+     <Compile Include="Assets\ButtonControl.cs" />
+     <Compile Include="Assets\ButtonManager.cs" />
+     <Compile Include="Assets\ButtonShow.cs" />
+     <Compile Include="Assets\ButtonShow2.cs" />
+     <Compile Include="Assets\ButtonShow3.cs" />
+     <Compile Include="Assets\ButtonShow4.cs" />
+     <Compile Include="Assets\Cubemap\IOSVisualTranslate.cs" />
+     <Compile Include="Assets\Cubemap\VisualTranslate.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\UIManager.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\fillAmount.cs" />
+     <Compile Include="Assets\RectDraw.cs" />
+     <Compile Include="Assets\Script\ButtonClick.cs" />
+     <Compile Include="Assets\Script\JsonFile.cs" />
+     <Compile Include="Assets\Script\JsonParse.cs" />
+     <Compile Include="Assets\Script\ShowButton.cs" />
+     <Compile Include="Assets\TestRaycast.cs" />
+     <Compile Include="Assets\UGUI.cs" />
+     <Compile Include="Assets\UIDoweenManager.cs" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Shaders\04-SkyReflection.shader" />
+     <None Include="Assets\Shaders\08-Triplanar.shader" />
+     <None Include="Assets\Anim\dimShader.shader" />
+     <None Include="Assets\UnlitShader\BehindBars.shader" />
+     <None Include="Assets\Anim\BlendShader.shader" />
+     <None Include="Assets\Wireframe shader\Shader\Unlit Transparent NoTex 2Sided.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\VectrosityDemos\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Texture and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Anim\SimpleLine.shader" />
+     <None Include="Assets\Vectrosity\What to import!.txt" />
+     <None Include="Assets\Anim\OldFilmShader.shader" />
+     <None Include="Assets\Anim\TransparentShader.shader" />
+     <None Include="Assets\Shaders\02-SingleColor.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Shaders\12-ShadowReceiving.shader" />
+     <None Include="Assets\Vectrosity\Vectrosity 4\Vectrosity 4 Upgrade Guide.txt" />
+     <None Include="Assets\Wireframe shader\Shader\Unlit Texture.shader" />
+     <None Include="Assets\Shaders\05-SkyReflectionNormalMap.shader" />
+     <None Include="Assets\Shaders\02b-VPOS.shader" />
+     <None Include="Assets\Wireframe shader\Shader\Unlit Transparent NoTex.shader" />
+     <None Include="Assets\Shaders\03-WorldSpaceNormals.shader" />
+     <None Include="Assets\Anim\NightVisionEffect.shader" />
+     <None Include="Assets\Anim\NNewWireShader.shader" />
+     <None Include="Assets\Shaders\07-Checkerboard.shader" />
+     <None Include="Assets\BIG_March\test.shader" />
+     <None Include="Assets\Plugins\VectrosityDemos\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Shaders\00-VLit.shader" />
+     <None Include="Assets\Wireframe shader\Shader\Unlit NoTex.shader" />
+     <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\ColoredBlended.shader" />
+     <None Include="Assets\Vectrosity\Vectrosity 3 Documentation\Vectrosity Upgrade Guide.txt" />
+     <None Include="Assets\Anim\NewWireShader.shader" />
+     <None Include="Assets\Shaders\10-DiffuseAndAmbient.shader" />
+     <None Include="Assets\Shaders\02e-Coverage.shader" />
+     <None Include="Assets\Wireframe shader\Shader\Normal-Glossy.shader" />
+     <None Include="Assets\Wireframe shader\Shader\ODL Diffuse.shader" />
+     <None Include="Assets\Shaders\ExampleContent.txt" />
+     <None Include="Assets\Plugins\VectrosityDemos\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Anim\NewUnlitShader 1.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Cubemap\verttransform.shader" />
+     <None Include="Assets\UnlitShader\NewUnlitShader.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Anim\WaterDropEffect.shader" />
+     <None Include="Assets\Shaders\02a-ShowUVs.shader" />
+     <None Include="Assets\Shaders\01-Unlit.shader" />
+     <None Include="Assets\Anim\NewUnlitShader.shader" />
+     <None Include="Assets\Shaders\06-MoreTextures.shader" />
+     <None Include="Assets\Shaders\09-SimpleDiffuse.shader" />
+     <None Include="Assets\Vectrosity\Vectrosity 3 Documentation\Vectrosity changelog.txt" />
+     <None Include="Assets\Vectrosity\Vectrosity 4\Vectrosity changelog.txt" />
+     <None Include="Assets\Wireframe shader\Shader\SURFACE BumpSpecular.shader" />
+     <None Include="Assets\Shaders\11-ShadowCasting.shader" />
+     <None Include="Assets\Vectrosity\Demos\Shaders\DepthMask.shader" />
+     <None Include="Assets\Shaders\02c-VFace.shader" />
+     <None Include="Assets\Anim\concentric circles.shader" />
+     <None Include="Assets\Shaders\02d-VertexID.shader" />
+     <None Include="Assets\Vectrosity\Demos\Shaders\SolidColor.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityNetwork">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Plugins/UnityNetwork.dll</HintPath>
+ </Reference>
+ <Reference Include="Vectrosity">
+ <HintPath>/Users/netease/Downloads/UnityShaderDocExamples/Assets/Plugins/Vectrosity.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{06483454-288C-9295-5BA9-E42E7C1D1327}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{2125E521-5776-CC64-B081-4F40D89D80C8}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

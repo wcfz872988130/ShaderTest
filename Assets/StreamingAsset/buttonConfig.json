@@ -1,0 +1,356 @@
+{
+    "id": "001",
+    "command": "0101101",
+    "buttons": [
+        {
+            "index": "0",
+            "type": "1",
+            "pos": "0.5 0.5",
+            "width": "200",
+            "height": "100",
+            "actionType": "1",
+            "subcommand": "1010010",
+            "icon": "1001",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "1.1 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "3",
+                "endScale": "1",
+                "during": "0"
+            },
+            "normal": {
+                "subIcon": "2001 2002 2003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "1.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.7",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.7",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "1.1 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "0",
+            "type": "2",
+            "pos": "0.1 0.1",
+            "width": "10",
+            "height": "20",
+            "actionType": "0",
+            "subcommand": "1000000",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "-0.1 0.1",
+                "endPos": "0.1 0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.1 0.1",
+                "endPos": "0.1 0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.1 0.1",
+                "endPos": "-0.1 0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "0",
+            "type": "3",
+            "pos": "0.5 0.5",
+            "width": "10",
+            "height": "20",
+            "actionType": "1",
+            "subcommand": "1100001",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 1.0",
+                "endPos": "0.5 0.5",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.5",
+                "endPos": "0.5 0.5",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.5",
+                "endPos": "0.5 0.6",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.6",
+                "endPos": "0.5 0.5",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.5",
+                "endPos": "0.5 1.0",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "1",
+            "type": "0",
+            "pos": "0.1 0.9",
+            "width": "10",
+            "height": "20",
+            "actionType": "0",
+            "subcommand": "0101101",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "-0.1 0.9",
+                "endPos": "0.1 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.1 0.9",
+                "endPos": "0.1 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.1 0.9",
+                "endPos": "-0.1 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "2",
+            "type": "0",
+            "pos": "0.9 0.1",
+            "width": "10",
+            "height": "20",
+            "actionType": "0",
+            "subcommand": "0101101",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 -0.1",
+                "endPos": "0.9 0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.1",
+                "endPos": "0.9 0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+				"startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.1",
+                "endPos": "0.9 -0.1",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "3",
+            "type": "0",
+            "pos": "0.5 0.9",
+            "width": "10",
+            "height": "20",
+            "actionType": "0",
+            "subcommand": "0101101",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "1.0 0.9",
+                "endPos": "0.5 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "1.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.9",
+                "endPos": "0.5 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+				"startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.5 0.9",
+                "endPos": "1.0 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        },
+        {
+            "index": "4",
+            "type": "0",
+            "pos": "0.9 0.5",
+            "width": "10",
+            "height": "20",
+            "actionType": "0",
+            "subcommand": "0101101",
+            "icon": "100",
+            "enter": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 1.0",
+                "endPos": "0.9 0.5",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "normal": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.5",
+                "endPos": "0.9 0.5",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "4.5"
+            },
+            "press": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.5",
+                "endPos": "0.9 0.5",
+				"startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "release": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.9",
+                "endPos": "0.9 0.9",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            },
+            "exit": {
+                "subIcon": "1001 1002 1003",
+                "startPos": "0.9 0.5",
+                "endPos": "0.9 1.0",
+                "startScale": "1",
+                "endScale": "1",
+                "during": "0.5"
+            }
+        }
+    ]
+}
